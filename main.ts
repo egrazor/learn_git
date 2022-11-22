@@ -1,5 +1,5 @@
 class User {
-    id: String;
+    id: Number;
     name: String;
     salary: Number;
 }
