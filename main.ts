@@ -3,3 +3,7 @@ class User {
     name: String;
     salary: Number;
 }
+
+class NonUsedClass {
+    id: String;
+}
