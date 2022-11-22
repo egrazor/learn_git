@@ -1,9 +1,14 @@
 class User {
     id: String;
     name: String;
-    salary: Number;
+    salary: Salary;
 }
 
 class NonUsedClass {
     id: String;
+}
+
+class Salary {
+    value: Number;
+    updatedAt: Date;
 }
